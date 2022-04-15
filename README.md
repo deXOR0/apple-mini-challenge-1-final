@@ -1,6 +1,6 @@
 # apple-mini-challenge-1-final
 
-## Oodin v1.0.0
+## Oodin v1.1.0
 
 ### LLD - Team 10 MC1 Morning
 ```
@@ -16,5 +16,5 @@ Laborare Ludere Deligenter
 - Daniel Christiawan
 - Hocky Harijanto
 - Jonathan Andryana
-- Nadya Caroline
+- Nadya Carolyne
 - Sherary Apriliana

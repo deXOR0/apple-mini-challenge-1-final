@@ -7,13 +7,20 @@
 
 import UIKit
 
-class SetupNameViewController: UIViewController {
+class SetupNameViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var nameField: UITextField!
     var user: User = User()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.nameField.delegate = self
+        self.hideKeyboardWhenTappedAround()
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
     }
     
     @IBAction func SaveName(_ sender: UIButton) {

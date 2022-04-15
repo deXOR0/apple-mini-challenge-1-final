@@ -15,6 +15,9 @@
 		4CB38CC128072679004E6772 /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB38CC028072679004E6772 /* OverviewViewController.swift */; };
 		4CB38CC328073545004E6772 /* Results.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB38CC228073545004E6772 /* Results.storyboard */; };
 		4CB38CC528073568004E6772 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB38CC428073568004E6772 /* ResultsViewController.swift */; };
+		9812051228093D1B005F43D8 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9812051128093D1B005F43D8 /* Settings.storyboard */; };
+		9812051428093D83005F43D8 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9812051328093D83005F43D8 /* SettingsViewController.swift */; };
+		9812051828094690005F43D8 /* CloseKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9812051728094690005F43D8 /* CloseKeyboard.swift */; };
 		9832B4C927FD41500052FBA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9832B4C827FD41500052FBA2 /* AppDelegate.swift */; };
 		9832B4CB27FD41500052FBA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9832B4CA27FD41500052FBA2 /* SceneDelegate.swift */; };
 		9832B4CD27FD41500052FBA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9832B4CC27FD41500052FBA2 /* ViewController.swift */; };
@@ -84,6 +87,9 @@
 		4CB38CC028072679004E6772 /* OverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewController.swift; sourceTree = "<group>"; };
 		4CB38CC228073545004E6772 /* Results.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Results.storyboard; sourceTree = "<group>"; };
 		4CB38CC428073568004E6772 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		9812051128093D1B005F43D8 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		9812051328093D83005F43D8 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		9812051728094690005F43D8 /* CloseKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseKeyboard.swift; sourceTree = "<group>"; };
 		9832B4C527FD41500052FBA2 /* VirtualPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9832B4C827FD41500052FBA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9832B4CA27FD41500052FBA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -184,6 +190,7 @@
 				987CC0992806F9D400FDA4B2 /* TimerViewController.swift */,
 				987CC0972806ED6400FDA4B2 /* TimerPromptViewController.swift */,
 				9883E2862802E2C500981919 /* Background.swift */,
+				9812051728094690005F43D8 /* CloseKeyboard.swift */,
 				989C4E6028000C440077EB47 /* Food.swift */,
 				9832B4C827FD41500052FBA2 /* AppDelegate.swift */,
 				4CB38C8B2803D296004E6772 /* Journal.swift */,
@@ -212,6 +219,8 @@
 				98EF026428044D0D00E4D572 /* UIBezierPath+Extension.swift */,
 				9832B4CE27FD41500052FBA2 /* Main.storyboard */,
 				987CC0AB280792F900FDA4B2 /* InitialLoadView.storyboard */,
+				9812051128093D1B005F43D8 /* Settings.storyboard */,
+				9812051328093D83005F43D8 /* SettingsViewController.swift */,
 				987CC0A9280792AA00FDA4B2 /* InitialLoadViewController.swift */,
 				98DE56A92805D05E00DB7314 /* Profile.storyboard */,
 				98DE56AB2805D65E00DB7314 /* ProfileViewController.swift */,
@@ -360,6 +369,7 @@
 				9832B4D527FD41510052FBA2 /* LaunchScreen.storyboard in Resources */,
 				9832B4D227FD41510052FBA2 /* Assets.xcassets in Resources */,
 				98DE56AA2805D05E00DB7314 /* Profile.storyboard in Resources */,
+				9812051228093D1B005F43D8 /* Settings.storyboard in Resources */,
 				9832B4D027FD41500052FBA2 /* Main.storyboard in Resources */,
 				4CB38C962805377F004E6772 /* Journal.storyboard in Resources */,
 				987CC0B02807A11A00FDA4B2 /* JournalDetails.storyboard in Resources */,
@@ -391,6 +401,7 @@
 			files = (
 				98EF021F2802E67300E4D572 /* Inventory.swift in Sources */,
 				98EF026528044D0D00E4D572 /* UIBezierPath+Extension.swift in Sources */,
+				9812051428093D83005F43D8 /* SettingsViewController.swift in Sources */,
 				987CC08E2806CCE400FDA4B2 /* Intro2ViewController.swift in Sources */,
 				4CB38C902803D8EB004E6772 /* JournalCollection.swift in Sources */,
 				987CC0B22807A11A00FDA4B2 /* DetailsTableViewController.swift in Sources */,
@@ -401,6 +412,7 @@
 				9832B4CD27FD41500052FBA2 /* ViewController.swift in Sources */,
 				98DE56AE2806841300DB7314 /* User.swift in Sources */,
 				987CC0A6280776C900FDA4B2 /* ShopFoodDetailViewController.swift in Sources */,
+				9812051828094690005F43D8 /* CloseKeyboard.swift in Sources */,
 				989C4E6128000C440077EB47 /* Food.swift in Sources */,
 				9832B4C927FD41500052FBA2 /* AppDelegate.swift in Sources */,
 				987CC0882806A17D00FDA4B2 /* SetupNameViewController.swift in Sources */,

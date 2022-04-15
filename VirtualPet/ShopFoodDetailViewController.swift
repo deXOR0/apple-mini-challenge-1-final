@@ -20,7 +20,7 @@ class ShopFoodDetailViewController: UIViewController {
     var selectedItem: String = ""
     var storeData: [String: Food] = [String: Food]()
     var count: Int = 1
-    var selectedFood: Food = Food(foodID: "", foodName: "", foodImage: UIImage(named: ""), foodHealth: 0, foodPrice: 0, foodDetail: "")
+    var selectedFood: Food = Food(foodID: "", foodName: "", foodImage: UIImage(named: "Candy_Stroked"), foodHealth: 0, foodPrice: 0, foodDetail: "")
     
     override func viewDidLoad() {
         super.viewDidLoad()

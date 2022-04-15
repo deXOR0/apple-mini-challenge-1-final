@@ -48,6 +48,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="" buttonSize="large">
                                     <imageReference key="image" image="gearshape.fill" catalog="system" symbolScale="default"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="settingsButtonPressed:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="62F-9M-z3f"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7RG-Qj-myw">
                                 <rect key="frame" x="15" y="242" width="360" height="321"/>
@@ -90,11 +93,22 @@
                         <outlet property="usernameLabel" destination="P5n-U1-91S" id="dr8-0T-Zcu"/>
                         <segue destination="VQy-Rk-o10" kind="presentation" identifier="backToHome" modalPresentationStyle="fullScreen" id="bpt-UL-3QM"/>
                         <segue destination="Iuk-Sd-QDl" kind="show" identifier="gotoJournalDetails" id="b1a-1u-407"/>
+                        <segue destination="YoR-Go-xPH" kind="show" identifier="gotoSettings" id="2EG-hM-5NT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1067.6923076923076" y="124.40758293838861"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="sNf-Ss-QOo">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Settings" id="YoR-Go-xPH" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Pvs-0i-ceJ"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2bT-BH-YNW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1662" y="21"/>
         </scene>
         <!--Main-->
         <scene sceneID="uDJ-Rh-zRZ">

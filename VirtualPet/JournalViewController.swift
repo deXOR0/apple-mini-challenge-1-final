@@ -20,6 +20,7 @@ class JournalViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.hideKeyboardWhenTappedAround()
         print(self.elapsedTime)
         print(self.startDate)
         print(self.endDate)

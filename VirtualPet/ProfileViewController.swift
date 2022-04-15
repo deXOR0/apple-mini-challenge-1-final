@@ -58,6 +58,9 @@ class ProfileViewController: UIViewController {
         /// else do nothing
     }
 
+    @IBAction func settingsButtonPressed(_ sender: UIButton) {
+        performSegue(withIdentifier: "gotoSettings", sender: self)
+    }
     
     @IBAction func backButtonPressed(_ sender: UIButton) {
         performSegue(withIdentifier: "backToHome", sender: self)
@@ -72,6 +75,10 @@ class ProfileViewController: UIViewController {
             let destinationViewController = segue.destination as? DetailsTableViewController
             destinationViewController?.user = self.user
             destinationViewController?.date = self.date
+        }
+        else if segue.identifier == "gotoSettings" {
+            let destinationViewController = segue.destination as? SettingsViewController
+            destinationViewController?.user = self.user
         }
     }
     

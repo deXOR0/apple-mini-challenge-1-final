@@ -87,6 +87,10 @@ class User: Codable {
             // Fallback
         }
     }
+    
+    func reset() {
+        userDefault.removeObject(forKey: USER_KEY)
+    }
 
     func resetGamingQuota() {
         self.gamingQuotaLeft = self.gamingTargetTime
